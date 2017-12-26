@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcxray-reader-lib", "mcxray-reader-lib\mcxray-reader-lib.vcxproj", "{1273C062-7912-46CB-997E-937079D83712}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcxray-reader-examples", "mcxray-reader-examples\mcxray-reader-examples.vcxproj", "{6712AE7C-3498-4EF4-B0C4-F715FED60E69}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1273C062-7912-46CB-997E-937079D83712} = {1273C062-7912-46CB-997E-937079D83712}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcxray-reader-testings", "mcxray-reader-testings\mcxray-reader-testings.vcxproj", "{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1273C062-7912-46CB-997E-937079D83712} = {1273C062-7912-46CB-997E-937079D83712}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1273C062-7912-46CB-997E-937079D83712}.Debug|x64.ActiveCfg = Debug|x64
+		{1273C062-7912-46CB-997E-937079D83712}.Debug|x64.Build.0 = Debug|x64
+		{1273C062-7912-46CB-997E-937079D83712}.Debug|x86.ActiveCfg = Debug|x64
+		{1273C062-7912-46CB-997E-937079D83712}.Debug|x86.Build.0 = Debug|x64
+		{1273C062-7912-46CB-997E-937079D83712}.Release|x64.ActiveCfg = Debug|x64
+		{1273C062-7912-46CB-997E-937079D83712}.Release|x64.Build.0 = Debug|x64
+		{1273C062-7912-46CB-997E-937079D83712}.Release|x86.ActiveCfg = Debug|x64
+		{1273C062-7912-46CB-997E-937079D83712}.Release|x86.Build.0 = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Debug|x64.ActiveCfg = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Debug|x64.Build.0 = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Debug|x86.ActiveCfg = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Debug|x86.Build.0 = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Release|x64.ActiveCfg = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Release|x64.Build.0 = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Release|x86.ActiveCfg = Debug|x64
+		{6712AE7C-3498-4EF4-B0C4-F715FED60E69}.Release|x86.Build.0 = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Debug|x64.ActiveCfg = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Debug|x64.Build.0 = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Debug|x86.ActiveCfg = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Debug|x86.Build.0 = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Release|x64.ActiveCfg = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Release|x64.Build.0 = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Release|x86.ActiveCfg = Debug|x64
+		{8A1D2375-F509-4BF2-81F0-FCEEF8CB8918}.Release|x86.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DDC6AF9-D094-40FB-9024-EC9F3F8C6EE0}
+	EndGlobalSection
+EndGlobal
